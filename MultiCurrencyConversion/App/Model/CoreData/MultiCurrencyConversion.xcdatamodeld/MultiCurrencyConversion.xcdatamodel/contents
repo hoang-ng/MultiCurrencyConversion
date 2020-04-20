@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ManagedBalance" representedClassName="ManagedBalance" syncable="YES" codeGenerationType="class">
+        <attribute name="balance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ManagedTransaction" representedClassName="ManagedTransaction" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fromAmount" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fromCurrency" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="rate" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="toAmount" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="toCurrency" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ManagedTransaction" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="ManagedBalance" positionX="-54" positionY="45" width="128" height="73"/>
+    </elements>
+</model>
